@@ -6,12 +6,12 @@ body.darkMode {
 }
 .potfolio
 { 
-    
-  
+    justify-content: ;
+  text-align: end;
   display: block;           
   width: fit-content;        
   margin: 0 auto;           
-  background-color: yellow;
+  
   padding: 5px 15px;
 }
 body
@@ -48,7 +48,7 @@ body.darkMode .box.glow{
 }
 .navbar a {
     padding: 10px 20px;       
-    background: rgb(21, 223, 58);       
+    background: rgb(135, 136, 135);       
     color: black;             
     text-decoration: dashed;   
     border-radius: 6px;       
@@ -88,7 +88,7 @@ nav a:hover {
 .box{
     width: calc(50% - 20px);
     height: 150px;
-    background: white;
+    background: rgb(183, 182, 182);
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0,0, 0.2);
     display: flex;

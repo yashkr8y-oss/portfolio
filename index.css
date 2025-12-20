@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+.big-button{
+    padding: 16px 40px;
+    font-size:4rem;
+    font-weight: 1500;
+    color: rgb(10, 76, 76);
+    background:linear-gradient(135 deg);
+    border: 20px;
+    border-style: ridge;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgb(189, 7, 226);
+    transition: all 0.25s ease;
+    }
+
+    /*hover*/
+    .big-button:hover{
+        transform: translateY(-3px);
+        box-shadow: 0 14px 30px rgb(232, 59, 24);
+    }
+    .big-button:focus{
+        outline: 3px solid green;
+        outline-offset: 3px;
+    }
