@@ -10,3 +10,22 @@ p {
     text-align: center;
     line-height: 1.6;
 }
+h2:hover{
+    text-decoration: dotted rgb(253, 74, 74);
+
+    color:blue;
+    
+    transform: translateY(-8px);
+
+}
+h2{
+    color: aqua;
+    text-align: center;
+    font-weight: 200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    transition: transform 2.5s ease;
+    transform: translateX(-18px);
+
+    text-decoration:underline rgb(149, 244, 149);
+}
