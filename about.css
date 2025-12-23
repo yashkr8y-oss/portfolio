@@ -1,0 +1,15 @@
+.heading{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: dotted red;
+    
+}
+.heading:hover{
+    color: brown;
+    text-decoration: transparent;
+    
+}
